@@ -1,0 +1,3 @@
+[submodule "procps"]
+	path = procps
+	url = https://gitlab.com/procps-ng/procps
