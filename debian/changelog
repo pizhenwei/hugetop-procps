@@ -1,0 +1,5 @@
+hugetop (4.0.5+byted1) unstable; urgency=medium
+
+  * A new utility to show huge page information.
+
+ -- zhenwei pi <pizhenwei@bytedance.com>  Tue, 27 Feb 2024 04:37:00 +0800

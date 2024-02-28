@@ -1,0 +1,18 @@
+Source: hugetop
+Section: admin
+Priority: optional
+Maintainer: zhenwei pi<pizhenwei@bytedance.com>
+Uploaders: zhenwei pi<pizhenwei@bytedance.com>
+Build-Depends: debhelper (>= 9~)
+Standards-Version: 4.6.2
+Homepage: https://gitlab.com/procps-ng/procps
+
+Package: hugetop
+Architecture: linux-any
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Recommends:
+Description: An utility to show huge page information.
+ hugetop utility is part of procps(since 2024-01-31), statically build
+ it as a separated binary for the lower Debian.
+  Author: zhenwei pi<pizhenwei@bytedance.com>
