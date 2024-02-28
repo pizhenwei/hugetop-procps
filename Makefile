@@ -1,4 +1,4 @@
-CFLAGS = -D_GNU_SOURCE -DHAVE_STDIO_EXT_H -DNUMA_DISABLE -Wall
+CFLAGS = -D_GNU_SOURCE -DHAVE_STDIO_EXT_H -DNUMA_DISABLE -Wall -g
 LIBS = -lncursesw -ltinfo
 INCLUDES = -I procps/ -I procps/library/include/ -I procps/local/
 SOURCES = procps/src/hugetop.c procps/library/*.c procps/local/*.c
