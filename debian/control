@@ -3,7 +3,7 @@ Section: admin
 Priority: optional
 Maintainer: zhenwei pi<pizhenwei@bytedance.com>
 Uploaders: zhenwei pi<pizhenwei@bytedance.com>
-Build-Depends: debhelper (>= 9~)
+Build-Depends: debhelper (>= 9~), libncurses5-dev|libncurses6-dev, libncursesw5-dev|libncursesw6-dev, pkg-config, autoconf
 Standards-Version: 4.6.2
 Homepage: https://gitlab.com/procps-ng/procps
 
