@@ -13,4 +13,10 @@ Statically built hugetop is necessary on the lower Debian, then we
 have a separated binary *hugetop* which would not affect library of
 procps.
 
+## test
+Build hugetop package locally:
+```
+dpkg-buildpackage -us -uc
+```
+
 Contact: zhenwei pi <pizhenwei@bytedance.com>
